@@ -15,11 +15,7 @@ Question 2. Which establishments in London have a `RatingValue` greater than or 
 
 I Noticed when looking through the data that we had a very inconsistent data entry of where London is placed. For some establishments it was on line2, 3 or 4.  
 
-One would have suspected that "LocalAuthorityName" was the field I wanted here, but ZERO results contain "London" in the original data source file.
-
-Not sure if the question is outdated for a previous dataset, or purposely designed to trick us.
-
-I also noticed that sometimes there was a "London Road" and just using a normal regex search resulted in that data being included.  So I used import re to help ensure ONLY exactly London was within my results.
+I used the regex to search for London in the LocalAuthorityName to solve it eventually.
 
 * https://pynative.com/python-regex-compile/
 * https://www.w3schools.com/python/python_regex.asp
