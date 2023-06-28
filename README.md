@@ -9,6 +9,8 @@ Import line: mongoimport --type json -d uk_food -c establishments --drop --jsonA
 NoSQL_setup_starter.ipynb
 NoSQL_analysis_starter.ipynb
 
+I also added a export CSV of the London_export used to read and browse the source data with excel & sort/filter features.  I wanted to be 100% sure about some details.  
+
 Items of note from the analysis_starter:
 
 Question 2. Which establishments in London have a `RatingValue` greater than or equal to 4?
